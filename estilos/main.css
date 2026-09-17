@@ -1,0 +1,109 @@
+body {
+    Background-color: black;
+
+}
+
+p {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px blue;
+}
+
+h4 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px rgb(0, 153, 255);
+}
+
+h2 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px rgb(0, 102, 255);
+}
+
+ul {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+th {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+b {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+table {
+    border-style: outset;
+    border-width: 10px;
+    border-color:cyan;
+}
+
+.direita {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    float: right;
+}
+
+.esquerda {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    float: left;
+}
+
+.centro {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.padraoformclumpe {
+    background-color: darkslategray;
+    border: 10px inset skyblue;
+    padding: 10px;
+    display:inline-block;
+    width: 600px;
+}
+
+.cabeçalho {
+    padding: 10px;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    border: 20px double skyblue;
+    ;
+}
+
+.rodapé {
+    padding: 10px;
+    background-color: darkcyan;
+    display: block;
+    border: 20px double skyblue;
+    margin-top: 15px;
+}
+.animado {
+transition: transform 1s ease;
+margin: 1px;
+}
+.animado:hover {
+transform: scale(1.05);
+}
